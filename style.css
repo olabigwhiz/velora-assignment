@@ -1,0 +1,1863 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    box-shadow: 1px 1px 2px rgb(190, 190, 190);
+}
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+#move {
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 90px;
+    margin-top: 20px;
+
+}
+.logo-container {
+    font-weight: bold;
+}
+.navlinks ul{
+    display: flex;
+    gap: 25px;
+}
+.navlinks ul li {
+    list-style: none;
+}
+.navlinks ul li a {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    text-transform: uppercase;
+    transition: color .5s ease-out;
+}
+.navlinks ul li a:hover {
+    color: black;
+}
+
+.navlinks ul li a.active {
+    color: black;
+    font-weight: bold;
+}
+.cta-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.cta-container button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    transition: background-color .5s ease-out;
+}
+.cta-container button:hover {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.cta-container #icon {
+    font-size: 1.5rem;
+}
+.cart-container {
+  position: relative;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35%;
+    right: 0%;
+}
+.hero-section {
+    margin: 70px 10px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.left-hero-content .p-season {
+    width: 180px;
+    background-color: black;
+    color: white;
+    padding: 5px 14px;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.left-hero-content .p-season .dot{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    border-radius: 50%;
+}
+.left-hero-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button01 {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  
+}
+.button01 button {
+    text-decoration: none;
+    padding: 10px;
+    border: 0px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.button02 button {
+    background-color: black;
+    color: white;
+}
+.right-hero-content, img {
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+.archive-spec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #f5f4ee;
+    color: #171717;
+    margin-top: 30px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    
+}
+.kinectic-sole {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: black;
+}
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute;
+    bottom: 12px;
+    left: 330px;
+}
+.right-hero-content{
+     background-color: rgb(238, 246, 255);
+     width: 500px;
+     height: 500px;
+     box-shadow: 2px 5px 5px rgb(190, 190, 190);
+
+}
+.hp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hp p{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.contain {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.coin {
+    align-items: center;
+    display: flex;
+
+}
+#drop p {
+   text-transform: uppercase;
+   font-size: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#drop h3 {
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#drop span {
+    font-size: 15px;
+}
+#drop {
+    margin: 55px;
+    padding: 20px;
+}
+.model {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mode {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bo {
+    width: 250px;
+    height: 100%;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.4s ease box-shadow 0.4s ease;
+   
+}
+.bo p {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#boxx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.bo:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 2px 10px rgb(60, 49, 49);
+}
+.bo img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.bo:hover, .bo img:hover {
+    transform: scale(1.02);
+}
+.bo button {
+    border: none;
+    background-color:rgb(236, 233, 233) ;
+    padding: 5px;
+}
+.bo button p {
+    color: green;
+}
+
+.bo .tag {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: rgb(148, 125, 125);
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+.title-container .size-6 {
+    width: 20px;
+    color: black;
+}
+@keyframes blink {
+    0% {
+        transform: scale(1);
+        background-color: rgb(148, 125, 125);
+    
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgb(148, 25, 125);
+    }
+}
+.bo .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#discover p {
+     font-size: 10px;
+     text-transform: uppercase;
+}
+#discover h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#discover {
+    
+    padding: 20px;
+    background-color: rgb(165, 164, 164);
+    border-radius: 25px;
+    margin: 55px;
+}
+.image-fash {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.fashion-card {
+    position: relative;
+    width: 30%;
+    height: 500px;
+}
+
+.fashion-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 20px;
+}
+.fashion-card span {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    background-color: limegreen;
+    padding: 5px 10px;
+    z-index: 2;
+}
+.fashion-card h4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    z-index: 2;
+}
+.fashion-card i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(8, 220, 8);
+    padding: 5px 10px;
+    z-index: 2;
+}
+.fashion-card .iii {
+    color: black;
+}
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+.card-text-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+.card-text-1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.card-text h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+.card-text p {
+    font-size: 13px;
+}
+.card-text-1 p {
+    font-size: 13px
+}
+.hoverlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.hoverlay-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: rgb(12, 1, 1);
+    background-color: rgba(247, 247, 247, 0.5);
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #08090b; */
+}
+
+.hero {
+    width: 100%;
+    min-height: 500px;
+    background-color: hsl(220, 16%, 4%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.tag {
+    display: inline-block;
+    background-color: rgb(217, 245, 43);
+    color: #20230a;
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.hero-content h1 {
+    font-family: Georgia, serif;
+    font-size: 52px;
+    margin-bottom: 18px;
+}
+
+.hero-content p {
+    max-width: 430px;
+    color: rgb(196, 196, 196);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+}
+
+.shop-btn {
+    display: inline-block;
+    background-color: rgb(217, 245, 43);
+    color: rgb(23, 25, 9);
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-3px);
+}
+
+.edition {
+    font-size: 9px;
+    color: rgb(136, 136, 136);
+    letter-spacing: 2px;
+}
+
+.hero-image {
+    width: 45%;
+    background-color: rgb(17, 18, 20);
+    padding: 25px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transform: rotate(-8deg);
+    transition: 0.4s;
+}
+
+.hero-image img:hover {
+    transform: rotate(0deg) scale(1.03);
+}
+.velora-standards {
+    background-color: rgb(248, 247, 242);
+    color: rgb(23, 23, 23);
+    padding: 65px 7% 85px;
+}
+
+.velora-intro {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.velora-label {
+    font-family: Georgia, serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(120, 120, 120);
+}
+
+.velora-intro h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin: 12px 0;
+}
+
+.velora-intro p {
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+}
+
+.velora-benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.velora-material-card,.velora-comfort-card,.velora-durability-card {
+    background-color: rgb(251, 250, 247);
+    padding: 30px;
+    min-height: 200px;
+    transition: 0.3s;
+}
+
+.velora-material-card:hover,.velora-comfort-card:hover,.velora-durability-card:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+
+.velora-icon {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: rgb(238, 237, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    font-size: 19px;
+}
+
+.velora-benefits h3 {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.velora-benefits p {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.velora-footer {
+    background-color: rgb(248, 247, 242);
+    color: rgb(37, 37, 37);
+    padding: 50px 7% 25px;
+}
+
+.velora-footer-top {
+    display: grid;
+    grid-template-columns: 1.5fr 0.6fr 0.6fr 1.4fr;
+    gap: 35px;
+    padding-bottom: 65px;
+}
+
+.velora-brand-info h3 {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.velora-brand-info h3 span {
+    color: rgb(199, 217, 30);
+}
+
+.velora-brand-info p {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.velora-footer h4 {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-bottom: 14px;
+}
+
+.velora-navigation a,.velora-socials a {
+    display: block;
+    text-decoration: none;
+    color: lab(43.19% 0 -0.01);
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.velora-navigation a:hover,.velora-socials a:hover {
+    color: #a2b900;
+}
+
+.velora-newsletter p {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.velora-subscribe {
+    display: flex;
+    gap: 8px;
+}
+
+.velora-subscribe input {
+    width: 65%;
+    min-width: 0;
+    padding: 12px;
+    border: none;
+    background-color: #eeede7;
+    outline: none;
+    font-size: 11px;
+}
+
+.velora-subscribe button {
+    background-color: #c9e323;
+    color: #252525;
+    border: none;
+    padding: 12px;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.velora-subscribe button:hover {
+    background-color: #b2c91b;
+}
+
+.velora-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e3dc;
+    padding-top: 22px;
+    gap: 15px;
+}
+
+.velora-footer-bottom p {
+    font-size: 11px;
+    color: #666;
+}
+.velora-footer-bottom span {
+    font-family: Georgia, serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.velora-catalog {
+    background-color: rgb(248, 247, 242);
+    color: rgb(25, 25, 25);
+    padding: 55px 7%;
+}
+
+
+.velora-catalog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.velora-series-label {
+    font-family: Georgia, serif;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.velora-catalog-heading h1 {
+    font-family: Georgia, serif;
+    font-size: 54px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.velora-catalog-heading p {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.velora-shipping-info {
+    display: flex;
+    gap: 28px;
+    background-color: rgb(240, 239, 233);
+    padding: 15px;
+}
+
+.velora-shipping-info span {
+    font-family: Georgia, serif;
+    font-size: 9px;
+    color: rgb(119, 119, 119);
+}
+
+.velora-shipping-info h4 {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.velora-filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(229, 227, 220);
+}
+
+.velora-category-filters {
+    display: flex;
+    gap: 5px;
+}
+
+.velora-category-filters button {
+    border: none;
+    background-color: rgb(239, 238, 232);
+    padding: 11px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.velora-category-filters button:hover {
+    background-color: rgb(215, 220, 200);
+}
+
+.velora-category-filters .velora-filter-active {
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+}
+
+.velora-sort-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.velora-sort-info span {
+    font-family: Georgia, serif;
+    font-size: 10px;
+}
+
+.velora-sort-select {
+    background-color: rgb(239, 238, 232);
+    border: none;
+    padding: 12px;
+    font-family: Georgia, serif;
+    font-size: 10px;
+}
+
+
+.velora-product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 20px;
+}
+
+.velora-motion-item,.velora-street-item,.velora-court-item,.velora-run-item,.velora-apex-item,.velora-urban-item,.velora-flex-item,.velora-classic-item {
+    width: 100%;
+}
+
+.velora-product-picture {
+    height: 145px;
+    position: relative;
+    background-color: rgb(238, 237, 231);
+    margin-bottom: 22px;
+}
+
+.velora-product-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.velora-product-picture img:hover {
+    transform: scale(1.04);
+}
+
+.velora-lime-tag,.velora-dark-tag,.velora-neutral-tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family: Georgia, serif;
+    font-size: 9px;
+    padding: 5px 7px;
+    z-index: 1;
+}
+
+.velora-lime-tag {
+    background-color: rgb(216, 237, 64);
+    color: rgb(32, 34, 15);
+}
+
+.velora-dark-tag {
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+}
+
+.velora-neutral-tag {
+    background-color: rgb(238, 237, 231);
+    color: rgb(51, 51, 51);
+}
+
+
+.velora-product-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.velora-product-meta span {
+    font-family: Georgia, serif;
+    font-size: 9px;
+    color: rgb(119, 119, 119);
+}
+
+.velora-product-details h3 {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.velora-product-details a{
+    color: black;
+    border-style: none;
+    text-decoration: none;
+}
+
+.velora-product-details p {
+    font-size: 11px;
+    color: rgb(119, 119, 119);
+    margin-bottom: 15px;
+}
+
+.velora-product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.velora-product-price strong {
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+.velora-product-price button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(238, 237, 231);
+    color: rgb(51, 51, 51);
+    transition: 0.3s;
+}
+
+.velora-cadence-banner {
+    background-color: rgb(12, 13, 14);
+    color: rgb(245, 243, 235);
+    padding: 55px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    border-radius: 10PX;
+}
+
+.velora-cadence-content {
+    width: 55%;
+}
+
+.velora-cadence-label {
+    color: rgb(205, 230, 45);
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.velora-cadence-content h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    line-height: 1.05;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.velora-cadence-content p {
+    color: rgb(190, 190, 185);
+    font-size: 12px;
+    line-height: 1.7;
+    max-width: 420px;
+}
+
+.velora-cadence-features {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.velora-cadence-feature {
+    background-color: rgb(29, 30, 29);
+    color: rgb(225, 225, 215);
+    padding: 12px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.velora-cadence-dot {
+    color: rgb(205, 230, 45);
+    font-size: 11px;
+    margin-right: 5px;
+}
+.velora-footer-nav{
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.velora-footer-nav button{
+    border-style: none;
+}
+.velora-footer-nav-button-1 p {
+    background-color: rgb(212, 212, 212);
+    color: rgb(171, 169, 169);;
+    font-size: 10px;
+    padding: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.velora-footer-nav-button-2 {
+    display: flex;
+}
+#velora-footer-nav-button-2-id p {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.velora-footer-nav-button-2-id p{
+    background-color: rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.velora-footer-nav-button-3 p {
+    background-color: rgb(212, 212, 212);
+    color: rgb(13, 13, 13);
+    font-size: 10px;
+    padding: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#velora-motion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238, 237, 231);
+    padding: 10px;
+}
+#empty-div {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #c9e323;
+}
+#velora-motion-3 {
+    display: flex;
+    align-items: center;
+}
+.velora-motion-details {
+    display: flex;
+    gap: 40px;
+    padding: 20px 35px;
+    color: rgb(35, 35, 32);
+    background-color: rgb(248, 247, 242);
+}
+.velora-motion-gallery {
+    width: 60%;
+}
+.velora-motion-main-picture {
+    height: 420px;
+    position: relative;
+    background-color: rgb(231, 228, 218);
+}
+.velora-motion-main-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.velora-motion-edition {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgb(20, 21, 19);
+    color: rgb(210, 231, 60);
+    padding: 7px 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.velora-motion-thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.velora-motion-thumbnails img {
+    width: 24%;
+    height: 100px;
+    object-fit: cover;
+    background-color: rgb(232, 230, 222);
+}
+.velora-motion-specifications {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 20px;
+}
+.velora-motion-specifications p {
+    font-size: 9px;
+    letter-spacing: 0.5px;
+}
+.velora-motion-information {
+    width: 40%;
+    padding-top: 25px;
+}
+.velora-motion-category {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(100, 100, 90);
+}
+.velora-motion-category::first-letter {
+    color: rgb(190, 215, 40);
+}
+.velora-motion-information h1 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.velora-motion-reviews {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.velora-motion-reviews a {
+    color: rgb(40, 40, 38);
+    font-size: 9px;
+}
+.velora-motion-price-box {
+    background-color: rgb(241, 240, 232);
+    padding: 15px;
+}
+.velora-motion-price-box h2 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0 0 8px;
+}
+.velora-motion-price-box h2 span {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+}
+.velora-motion-price-box p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0;
+}
+.velora-motion-description {
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(85, 85, 80);
+    margin: 20px 0;
+}
+.velora-motion-colors {
+    margin-top: 20px;
+}
+.velora-motion-colors p,.velora-motion-size-heading p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+.velora-motion-color-circles {
+    display: flex;
+    gap: 8px;
+}
+.velora-motion-color-circles span {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgb(200, 200, 190);
+}
+.velora-motion-black {
+    background-color: rgb(20, 22, 23);
+}
+.velora-motion-lime {
+    background-color: rgb(185, 211, 55);
+}
+.velora-motion-white {
+    background-color: rgb(245, 244, 238);
+}
+.velora-motion-size-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.velora-motion-size-heading a {
+    color: rgb(50, 50, 45);
+    font-size: 9px;
+}
+
+.velora-motion-sizes {
+    display: flex;
+    gap: 5px;
+    margin: 12px 0 20px;
+}
+
+.velora-motion-sizes button {
+    flex: 1;
+    padding: 12px 5px;
+    border: none;
+    background-color: rgb(242, 241, 234);
+    color: rgb(40, 40, 38);
+    font-size: 11px;
+}
+
+.velora-motion-sizes .velora-motion-selected-size {
+    background-color: rgb(20, 21, 22);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.velora-motion-purchase {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.velora-motion-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    background-color: rgb(242, 241, 234);
+}
+
+.velora-motion-quantity button {
+    border: none;
+    background: none;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.velora-motion-quantity span {
+    font-size: 12px;
+}
+
+.velora-motion-bag {
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(20, 21, 22);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 10px;
+}
+
+.velora-motion-buy {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    background-color: rgb(190, 215, 40);
+    color: rgb(30, 30, 25);
+    border: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.velora-motion-highlights {
+    margin-top: 28px;
+}
+
+.velora-motion-highlights h3 {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.velora-motion-highlight-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.velora-motion-highlight-list p {
+    font-size: 11px;
+    margin: 0;
+    line-height: 1.5;
+}
+.velora-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 35px 5%;
+    transition: 0.4s;
+}
+.velora-feature:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+
+.velora-feature {
+    padding: 15px;
+    background-color: rgb(248, 247, 244);
+}
+
+.velora-feature h4 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.velora-feature p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: rgb(100, 100, 100);
+}
+
+.velora-related {
+    padding: 45px 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.velora-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 25px;
+}
+
+.velora-heading p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.velora-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    margin: 0;
+}
+
+.velora-heading a {
+    font-size: 10px;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+.velora-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.velora-product {
+    padding-bottom: 15px;
+    background-color: rgb(250, 249, 247);
+}
+
+.velora-image {
+    position: relative;
+    width: 100%;
+    height: 245px;
+}
+
+.velora-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.velora-image img:hover {
+    transform: scale(1.04);
+}
+
+.velora-tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 5px 9px;
+    background-color: rgb(235, 235, 225);
+    color: rgb(25, 25, 25);
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.velora-green {
+    background-color: rgb(190, 210, 75);
+}
+
+.velora-dark {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+
+.velora-code {
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 15px 12px 7px;
+    color: rgb(100, 100, 100);
+}
+
+.velora-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+}
+
+.velora-details h3 {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.velora-details p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.velora-product  a {
+    display: block;
+    text-align: center;
+    margin: 15px 12px 0;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+.velora-product  a:hover {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+
+.guiding-principles-section {
+    margin: 50px;
+    background-color: rgb(250, 249, 247);
+    padding: 20px;
+    display: grid;
+    transition: 0.4s;
+}
+.guiding-principles-section:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+.guiding-principles-section-1 h3 {
+    font-size: 9px;
+}
+.guiding-principles-section-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.guiding-principles-section-2 h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.guiding-principles-section-2 h3 {
+    font-size: 10px;
+    font-weight: lighter;
+}
+.pillar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#i {
+    font-size: 13px;
+}
+.pillar-2 h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pillar h3{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 25px; */
+}
+.pillar-2 p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 25px;
+}
+.pillar-3 h4 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(102, 102, 102);
+}
+#pillar-card {
+    background-color: rgb(250, 249, 247);
+    margin-bottom: 5px;
+    display: grid;
+    padding: 25px;
+    border-radius: 10px;
+}
+.pillar-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rev {
+    color: white;
+}
+#pillar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 15px;
+    padding: 20px;
+    justify-content: center;
+    transition: ease-out;
+}
+#pillar-card:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+
+.collections-about-2 {
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+}
+.collections-about-1 h4 {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  
+}
+.collections-about-1{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 5px;
+}
+.collections-about-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collections-about-head h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-right: 20px; 
+    color: rgb(102, 102, 102);
+}
+.collections-about {
+    background-color: rgb(250, 249, 247);
+    /* box-shadow: 1px 1px 2px rgb(0, 0, 0); */
+}
+.collections-about-move h3 {
+   font-size: 50px;
+   text-transform: uppercase;
+   margin-left: 30px;
+   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aethel-showcase {
+    width: 90%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.aethel-showcase img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+    transition: ease-in;
+}
+.aethel-showcase img:hover{
+    transform: scale(1.02);
+}
+.aethel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.65)
+    );
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.aethel-top {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.aethel-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.aethel-bottom h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.aethel-bottom p {
+    font-size: 12px;
+}
+
+.aethel-bottom button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.aethel-location {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.aethel-series {
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.aethel-series span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #b7c900;
+    margin-right: 5px;
+}
+
+.velora-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 60px 5%;
+    background-color: rgb(246, 245, 241);
+    align-items: center;
+}
+
+.story-image {
+    position: relative;
+}
+
+.story-image img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+}
+
+.shoe-label {
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+    background-color: rgb(246, 245, 241);
+    padding: 15px 20px;
+}
+
+.shoe-label p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.shoe-label h3 {
+    font-size: 17px;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.shoe-label span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: rgb(164, 190, 83);
+    margin-top: 10px;
+}
+
+.story-content {
+    padding: 20px 0;
+}
+
+.story-tag {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.story-tag span {
+    width: 35px;
+    height: 1px;
+    background-color: rgb(164, 190, 83);
+}
+
+.story-tag p {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.story-content h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin: 10px 0 20px;
+    color: rgb(25, 25, 23);
+}
+
+.story-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(75, 75, 70);
+}
+
+.story-content .story-intro {
+    font-size: 19px;
+    line-height: 1.7;
+    color: rgb(35, 35, 32);
+}
+
+.story-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(238, 237, 232);
+    padding: 18px;
+    margin-top: 25px;
+}
+
+.story-details p {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+
+.story-details h3 {
+    font-size: 15px;
+    font-family: Georgia, serif;
+    margin: 0;
+    color: rgb(35, 35, 32);
+}
+
+.impact-section {
+    background-color: rgb(246, 245, 241);
+    padding: 50px 4%;
+}
+
+.impact-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.impact-heading p {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.impact-heading span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(164, 190, 83);
+    margin-right: 8px;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 55px;
+}
+
+.impact-card {
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.impact-card:hover {
+    background-color: rgb(238, 237, 232);
+    transform: translateY(-8px);
+}
+
+.impact-card .impact-category {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.impact-card h1 {
+    font-family: Georgia, serif;
+    font-size: 65px;
+    margin: 0 0 12px;
+    color: rgb(25, 25, 25);
+}
+
+.impact-card h1 span {
+    font-size: 25px;
+    color: rgb(130, 130, 130);
+    font-weight: normal;
+}
+
+.impact-card h4 {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    margin: 0 0 8px;
+}
+
+.impact-card > p:last-child {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(90, 90, 85);
+    margin: 0;
+}
+
+.impact-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 35px 40px;
+    background-color: rgb(238, 237, 232);
+}
+
+.impact-cta p {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 8px;
+}
+
+.impact-cta h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.impact-cta a {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+
+.impact-cta a:hover {
+    background-color: rgb(164, 190, 83);
+    color: rgb(20, 20, 20);
+}
+
+.collection-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collection-contact-2 {
+    margin-right: 20px;
+}
+.collection-contact-2 h4 {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.collection-contact-2 p {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
